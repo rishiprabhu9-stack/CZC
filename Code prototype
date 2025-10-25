@@ -1,0 +1,197 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Nexus — AI-Driven Website Platform</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Inter',sans-serif;
+      color:#f1f5f9;
+      background:radial-gradient(circle at top,#0a0f2a,#020617 70%);
+      min-height:100vh;
+      line-height:1.6;
+      overflow-x:hidden;
+    }
+    header{
+      text-align:center;
+      padding:60px 20px 40px;
+    }
+    header h1{
+      font-size:2.8rem;
+      background:linear-gradient(90deg,#38bdf8,#818cf8,#c084fc);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      animation:gradient 6s ease infinite;
+      background-size:200% 200%;
+    }
+    @keyframes gradient{
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+    header p{
+      color:#a5b4fc;
+      font-size:1.1rem;
+      margin-top:10px;
+    }
+    .container{
+      max-width:1100px;
+      margin:0 auto;
+      padding:0 20px 80px;
+    }
+    section{
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.08);
+      border-radius:16px;
+      padding:32px;
+      margin-bottom:30px;
+      box-shadow:0 8px 24px rgba(0,0,0,0.4);
+      backdrop-filter:blur(10px);
+      transition:transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    section:hover{
+      transform:translateY(-4px);
+      box-shadow:0 10px 32px rgba(0,0,0,0.6);
+    }
+    h2{
+      font-size:1.8rem;
+      margin-bottom:16px;
+      color:#93c5fd;
+    }
+    h3{
+      color:#c084fc;
+      margin-bottom:8px;
+    }
+    p,li,td,th{
+      color:#e2e8f0;
+    }
+    ul{margin-left:20px;list-style:disc}
+    pre{
+      background:#0f172a;
+      padding:14px 16px;
+      border-radius:10px;
+      overflow:auto;
+      color:#bae6fd;
+    }
+    code{font-family:monospace}
+    .btn{
+      display:inline-block;
+      margin-top:12px;
+      padding:10px 20px;
+      border-radius:12px;
+      background:linear-gradient(90deg,#38bdf8,#818cf8,#c084fc);
+      color:#0f172a;
+      font-weight:600;
+      text-decoration:none;
+      transition:transform 0.2s ease;
+    }
+    .btn:hover{transform:scale(1.05)}
+    footer{
+      text-align:center;
+      padding:20px;
+      color:#94a3b8;
+      border-top:1px solid rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Nexus</h1>
+    <p>Transform your website into a living, learning experience powered by AI.</p>
+    <a href="#demo" class="btn">Try the Live Demo</a>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>🚀 What is AI Nexus?</h2>
+      <p><strong>AI Nexus</strong> is a plug-and-play AI website engine that adds personalization, predictive analytics, and adaptive content to any site — portfolio, store, blog, or SaaS page.</p>
+    </section>
+
+```
+<section>
+  <h2>✨ Features</h2>
+  <ul>
+    <li><strong>Smart Personalization:</strong> Adapts your pages to each visitor’s behavior.</li>
+    <li><strong>AI Chat Assistant:</strong> An intelligent bot that knows your site’s content.</li>
+    <li><strong>Predictive Insights:</strong> AI learns what users want next.</li>
+    <li><strong>No-Code Integration:</strong> Add one script to any site.</li>
+    <li><strong>Privacy-First:</strong> All data stays secure, on-device.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🧩 Quick Start</h2>
+  <pre><code># Clone the repo
+```
+
+git clone [https://github.com/your-username/ai-nexus.git](https://github.com/your-username/ai-nexus.git)
+cd ai-nexus
+
+# Install dependencies
+
+npm install
+
+# Run locally
+
+npm run dev
+
+# Deploy to Vercel or Netlify
+
+npm run deploy</code></pre> <p>Embed this snippet in your HTML:</p> <pre><code><script src="[https://cdn.ainexus.ai/embed.js"&gt;&lt;/script](https://cdn.ainexus.ai/embed.js%22&gt;&lt;/script)></code></pre> <a href="https://github.com/your-username/ai-nexus" class="btn">View on GitHub</a> </section>
+
+```
+<section>
+  <h2>🧠 Example (React)</h2>
+  <pre><code>import { useEffect } from 'react';
+```
+
+export default function Home() {
+useEffect(() => {
+import('[https://cdn.ainexus.ai/sdk.js').then((AI)](https://cdn.ainexus.ai/sdk.js'%29.then%28%28AI%29) => {
+AI.init({ siteId: 'your-site-id' });
+});
+}, []);
+
+return (
+<main className="p-6">
+<h1>Welcome to AI Nexus ⚡</h1>
+<p>Your website just got smarter.</p>
+</main>
+);
+}</code></pre> </section>
+
+```
+<section>
+  <h2>🔮 Roadmap</h2>
+  <ul>
+    <li>AI-generated UX layout builder</li>
+    <li>Natural language website editor</li>
+    <li>Real-time visitor heatmap with AI insights</li>
+    <li>Edge AI inference for zero-latency predictions</li>
+  </ul>
+</section>
+
+<section>
+  <h2>⚙️ Tech Stack</h2>
+  <ul>
+    <li>Frontend: React + Tailwind</li>
+    <li>AI Layer: OpenAI / Local LLMs</li>
+    <li>Backend: Node.js + FastAPI</li>
+    <li>Hosting: Vercel / Netlify / AWS</li>
+    <li>Database: Supabase / MongoDB Atlas</li>
+  </ul>
+</section>
+```
+
+  </main>
+
+  <footer>
+    <p>⭐ Star this repo to support development — <a href="https://github.com/your-username/ai-nexus" style="color:#38bdf8">GitHub</a></p>
+    <p>Created by <a href="https://github.com/your-username" style="color:#818cf8">Your Name</a> · MIT License</p>
+  </footer>
+</body>
+</html>
